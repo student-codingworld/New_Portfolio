@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about, .projects {
+    padding: 4rem 0;
+}
+
+.projects .card {
+    transition: transform 0.3s;
+}
+
+.projects .card:hover {
+    transform: scale(1.05);
+}
